@@ -52,7 +52,7 @@ def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
   holiday_hash.map do |season, holiday_list|
     if season == :winter
-      holiday_list.map { |holiday, supply_array| supply_array.values }
+      holiday_list.map { |holiday, supply_array| supply_array }
     end
   end
 end
