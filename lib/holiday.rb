@@ -56,6 +56,7 @@ def all_winter_holiday_supplies(holiday_hash)
       winter_array << :christmas && :new_years
     end
   end
+  winter_array
 end
 
 def all_supplies_in_holidays(holiday_hash)
