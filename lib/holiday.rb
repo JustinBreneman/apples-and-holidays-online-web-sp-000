@@ -53,6 +53,8 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.map do |season, holiday_list|
     if season == :winter
       holiday_list.inspect
+    else
+      break
     end
   end
 end
